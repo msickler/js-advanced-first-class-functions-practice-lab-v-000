@@ -40,3 +40,10 @@ const totalRevenue = function (drivers) {
 const getSumRevenue = function (agg, el, i, arr) {
   return agg + el.revenue;
 } */
+
+const averageRevenue = function (drivers) {
+  drivers.forEach(function (driver) {
+    const avg = driver.revenue.average 
+  })
+  return avg
+}
