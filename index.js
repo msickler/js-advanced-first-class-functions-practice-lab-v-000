@@ -32,3 +32,11 @@ const totalRevenue = function (drivers) {
   })
   return total
 }
+
+/* const totalRevenue = function (drivers) {
+  return drivers.reduce(getSumRevenue, 0);
+}
+
+const getSumRevenue = function (agg, el, i, arr) {
+  return agg + el.revenue;
+} */ 
